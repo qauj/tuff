@@ -1,0 +1,31 @@
+name: PrimeBox
+version: 1.0
+main: com.primesmp.primebox.PrimeBox
+api-version: 1.21
+author: PRIMESMP
+description: Professional 1v1 duel arena plugin
+
+commands:
+  pos1:
+    description: Set position 1 for arena bounding box
+    permission: primebox.admin
+  pos2:
+    description: Set position 2 for arena bounding box
+    permission: primebox.admin
+  glasspos1:
+    description: Set position 1 for glass wall selection
+    permission: primebox.admin
+  glasspos2:
+    description: Set position 2 for glass wall selection
+    permission: primebox.admin
+  primebox:
+    description: Main arena management command
+    permission: primebox.admin
+
+permissions:
+  primebox.admin:
+    description: Full access to arena management
+    default: op
+  primebox.use:
+    description: Ability to use arenas
+    default: true
